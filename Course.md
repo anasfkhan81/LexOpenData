@@ -31,7 +31,7 @@ _Contributors: **CNR-ILC**, **NUIG**_
 _Draft URL: https://github.com/anasfkhan81/LexOpenData/blob/main/Course.md _
 
 
-### **Summary**
+## **Learning Outcomes**
 
 
 
@@ -41,17 +41,13 @@ _Draft URL: https://github.com/anasfkhan81/LexOpenData/blob/main/Course.md _
 * Understand the main initiatives, projects and organisations which promote FAIR
 
 
-#### Introduction to the Course and Prerequisites
+### Introduction to the Course and Prerequisites
 
 Technology should not necessarily be seen as the ultimate challenge facing lexicography today: social, cultural and legal obstacles often stand in the way of collaboration and knowledge sharing. This course will explore the principles of open science, open data, and the FAIR principles and open science as they apply to lexicography.
 
 Although this course is listed as intermediate it does not require any particular specialised knowledge.  However it is recommended that users of this course have some basic grasp of what metadata is and how to use it (a good introduction can be found [here](https://www.dublincore.org/resources/metadata-basics/)). Similarly it will be helpful to have a minimal understanding of formats (such as XML and RDF) 
 
-
-#### Learning Outcomes
-
-
-#### Brief introduction to Open Science & Open Data
+### Brief introduction to Open Science & Open Data
 
 In this first part of the lesson we will look at what it is that we mean by the terms Open Science and Open Data.
 
@@ -71,7 +67,7 @@ This leads us onto the topic of Open Data, which is clearly related to the topic
 That is the data should have an open license and should be readily accessible and in a machine readable form. (For more information on different kinds of open licenses and related legal issues see the ELEXIS deliverable [D6.2 ‘’On Legal and IPR  Issues for Lexicography”](https://elex.is/wp-content/uploads/2020/02/ELEXIS_D6_2_Reccommendations_on_Legal_and_IPR_Issues_for_Lexicography.pdf)). Of course it is not always possible to publish data with an open license for reasons of privacy or due to copyright or the sensitivity of the data and other ethical issues (although when it is possible there is arguably a moral obligation to make data that is the result of publicly funded research available with an open license). Hence the slogan  "as open as possible, as closed as necessary" which is found in the  H2020 Program Guidelines on FAIR Data. However even in those cases where we cannot publish the data openly there are other things we can do to make this data more open in the sense of making it more findable, accessible, interoperable, and re-usable, by providing informative open metadata that lists, among other things, both the specific license for the data and who to contact for enquiries as well as a description of the dataset itself. This, then, leads us onto our next section on FAIR data. 
 
 
-#### Further Information
+### Further Information
 
 A good introduction to Open Science can be found at the FOSTER Open Science Site:
 
@@ -110,11 +106,11 @@ DARIAH Campus also offers a course on Open Science.
 * **[https://campus.dariah.eu/resource/open-science-is-just-good-science](https://campus.dariah.eu/resource/open-science-is-just-good-science)**
 
 
-#### An introduction to the FAIR principles for lexicographers
+### An introduction to the FAIR principles for lexicographers
 
 In this section we will give a general introduction to the so-called FAIR principles, relating them to the preceding section and its discussion of Open Science and Open Data. For each of the different sections/groupings of the principles (Findable, Accessible, Interoperable, Reusable) we will mention relevant  initiatives, projects, and tools which will be relevant for applying the principles in question to lexicographic resources and datasets. 
 
-The FAIR Principles \
+#### The FAIR Principles
 The FAIR principles were originally formulated in an article published in the journal Scientific Data in 2016. They outline a series of 15 recommendations which have the principal aim of making data (or more broadly speaking ‘research objects’) more machine-actionable, that is easier for computers to access and to work with (potentially without direct human intervention), by making it more findable, accessible, interoperable and reusable, hence the acronym FAIR. The  15 recommendations classified are under each of the different letters of the acronym.  As we mentioned above there is a strong connection here between the Open Science and Open Data movements and FAIR. In reality as the GO FAIR site points out, the FAIR principles were inspired by Open Science, although they “explicitly and deliberately do not address moral and ethical issues pertaining to the openness of data”. On the other hand, the FAIR principles *do* “require clarity and transparency around the conditions governing access and reuse” and require data to have (among other things) “ to have a clear, preferably machine readable, license”. 
 
 In what follows we will give each of these guidelines in turn following the categorisation of each of the principles given in the original FAIR paper and which can also be found on the GOFAIR site. We will also add a description below each grouping of principles describing how these principles can be applied in the case of lexicographic datasets. 
@@ -193,13 +189,3 @@ An introduction to initiatives, projects and organisations which promote FAIR an
 
 **[https://youtu.be/dcL9xcIapyI](https://youtu.be/dcL9xcIapyI)**
 
-
-### **Useful Links**
-
-WP5.2 Guidelines for Producing ELEXIS Tutorials and Instruction Manuals
-
-[https://drive.google.com/open?id=1p0r8jxKlky6vhECe0sBOEe5vprLjYtxn&authuser=ttasovac%40humanistika.org&usp=drive_fs](https://drive.google.com/open?id=1p0r8jxKlky6vhECe0sBOEe5vprLjYtxn&authuser=ttasovac@humanistika.org&usp=drive_fs)
-
-ELEXIS curriculum overview
-
-[https://docs.google.com/document/d/1jBuD4blH74rBkaa2ActNx5G_99FzNVeVg2kaBqAJqV4/edit#](https://docs.google.com/document/d/1jBuD4blH74rBkaa2ActNx5G_99FzNVeVg2kaBqAJqV4/edit#)
