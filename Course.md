@@ -191,17 +191,14 @@ As for R1.1 an extended discussion of different kinds of issues around legal and
 
 #### Finding out more: Initiatives, projects, and organisations which promote FAIR 
 
-A list initiatives, projects and organisations which promote FAIR and which lexicographers can contribute to and find out more about FAIR from
-
-
-
-    * [GOFAIR](https://www.go-fair.org/today/fair-matrix/)
-    * [SSHOC](https://sshopencloud.eu/)
+A list of initiatives, projects and organisations which promote FAIR and which lexicographers can contribute to and find out more about FAIR from
+- [GOFAIR](https://www.go-fair.org/today/fair-matrix/)
+- [SSHOC](https://sshopencloud.eu/)
 
 
 ### **Other relevant resourses **
 
-**[An Introduction to Conceptual Modelling](https://campus.dariah.eu/resource/an-introduction-to-conceptual-modelling)**
+- [An Introduction to Conceptual Modelling](https://campus.dariah.eu/resource/an-introduction-to-conceptual-modelling)**
 
-**[FAIR Data in Trustworthy Data Repositories](https://youtu.be/dcL9xcIapyI)**
+- [FAIR Data in Trustworthy Data Repositories](https://youtu.be/dcL9xcIapyI)**
 
