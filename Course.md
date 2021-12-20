@@ -196,7 +196,7 @@ A list of initiatives, projects and organisations which promote FAIR and which l
 - [SSHOC](https://sshopencloud.eu/)
 
 
-### **Other relevant resourses **
+### **Other relevant resources **
 
 - [An Introduction to Conceptual Modelling](https://campus.dariah.eu/resource/an-introduction-to-conceptual-modelling)**
 
