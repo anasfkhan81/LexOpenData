@@ -46,7 +46,7 @@ _Draft URL: https://github.com/anasfkhan81/LexOpenData/blob/main/Course.md _
 
 Technology should not necessarily be seen as the main challenge facing lexicography today: social, cultural and legal obstacles often stand in the way of greater collaboration and knowledge sharing. This course will explore the principles of open science, open data, and the FAIR principles and open science as they apply to lexicography.
 
-Although this course is listed as intermediate it does not require any particular specialised knowledge.  However it is recommended that users of the course have some basic grasp of what metadata is and how to use it (a good introduction can be found [here](https://www.dublincore.org/resources/metadata-basics/)). Similarly it will be helpful to have a minimal understanding of formats such as XML and RDF. 
+Although this course is listed as intermediate it does not require any particular specialised knowledge.  However it is recommended that users of the course have some basic grasp of what metadata is and how to use it (a good introduction to Metadata can be found [here](https://www.dublincore.org/resources/metadata-basics/)). Similarly it will be helpful to have a minimal understanding of formats such as XML and RDF. A general introduction to some of these themes can be found in the ELEXIS course [Capturing, Modeling and Transforming Lexical Data: An Introduction](http://tacheles.humanistika.org/JnopOFcnQe-3xXUHN5Ey5g?view) and Modeling Dictionaries in OntoLex-Lemon (for RDF).
 
 
 ### A Brief introduction to Open Science & Open Data
@@ -138,11 +138,13 @@ The recommendations grouped under Findability are as follows:
 * F3. Metadata clearly and explicitly include the identifier of the data they describe
 * F4. (Meta)data are registered or indexed in a searchable resource
 
-Guidelines F1 and F4 can be implemented with the help of a data repository which provides this service. Data repositories can also help with F2 and F3 . Note that it is  recommended to use a discipline-specific repository as this greatly assists in the task of making your dataset or resource more findable. If none exists then a more generic repository such as Zenodo can be used. 
+Guidelines F1 and F4 can be implemented with the help of a data repository which provides this service. Data repositories can also help with F2 and F3 . Note that it is  recommended to use a discipline-specific repository as this greatly assists in the task of making your dataset or resource more findable. If none exists then a more generic repository such as [Zenodo](https://zenodo.org/) can be used. 
 
-Luckily, lexicographic resources (including lexicons as well as related resources such as corpora and thesauri), as well as tools for working with them, are covered in Europe by the [CLARIN infrastructure](https://www.clarin.eu/) and its network of data repositories since [CLARIN repositories](https://www.clarin.eu/content/repositories) are specifically intended to handle textual resources for the social sciences and humanities (SSH). A dataset that is deposited in a CLARIN repository will be a given a globally unique and persistent[ identifier](https://www.clarin.eu/content/persistent-identifiers) (a handle), the metadata for that dataset will also be [harvested and indexed in the CLARIN Virtual Language Observatory (VLO)](https://www.clarin.eu/faq-page/275) along with data from all the other CLARIN centres. CLARIN also offers a framework, [CMDI](https://www.clarin.eu/content/component-metadata), for integrating together ‘components’ from different metadata sets to create specific ‘profiles’ for different kinds of datasets, these are registered in a central repository.
+Luckily, lexicographic resources (including lexicons as well as related resources such as corpora and thesauri), as well as tools for working with them, are covered in Europe by the [CLARIN infrastructure](https://www.clarin.eu/) and its network of data repositories since [CLARIN repositories](https://www.clarin.eu/content/repositories) are specifically intended to handle textual resources for the social sciences and humanities (SSH). A dataset that is deposited in a CLARIN repository will be a given a globally unique and persistent[ identifier](https://www.clarin.eu/content/persistent-identifiers) (a handle), the metadata for that dataset will also be [harvested and indexed in the CLARIN Virtual Language Observatory (VLO)](https://www.clarin.eu/faq-page/275) along with data from all the other CLARIN centres. CLARIN also offers a framework, [CMDI](https://www.clarin.eu/content/component-metadata), for integrating together ‘components’ from different metadata sets to create specific ‘profiles’ for different kinds of datasets, these are registered in a central repository. In particular these CLARIN services help to implement recommendations F1 and F4.
 
-Useful generic metadata sets include the [Dublin Core](http://purl.org/dc/terms),[ the Data Category Vocabulary (DCAT)](http://www.w3.org/TR/vocab-dcat/), [PROV-O](http://www.w3.org/TR/prov-o/) (for provenance information for linked data datasets),  and [VoID ](https://www.w3.org/TR/void/)(for describing links between linked data datasets). Specialised metadata sets which are relevant for lexicographic resources include the TEI headers [[1](http://tei.oucs.ox.ac.uk/Talks/2010-07-oxford/talk-03-metadata.xml), [2](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html)] for TEI-XML documents and META-SHARE and [LIME](https://www.w3.org/2016/05/ontolex/#metadata-lime) for linked data datasets, and the [ISO 639-3 language tag sets](https://iso639-3.sil.org/). An introduction to the CLARIN infrastructure can be found in …. For F3 it is important that the user
+The recommendations listed above, along with those other FAIR which we will list below, highlight the importance of good metadata vocabularies or metadata sets for making resources more accessible. Unfortunately we cannot offer an extended survey of the main metadata sets available for lexicographic resources here. However, useful generic metadata sets include the [Dublin Core](http://purl.org/dc/terms),[ the Data Category Vocabulary (DCAT)](http://www.w3.org/TR/vocab-dcat/), [PROV-O](http://www.w3.org/TR/prov-o/) (for provenance information for linked data datasets),  and [VoID ](https://www.w3.org/TR/void/)(for describing links between linked data datasets). Specialised metadata sets which are relevant for lexicographic resources include the TEI headers [[1](http://tei.oucs.ox.ac.uk/Talks/2010-07-oxford/talk-03-metadata.xml), [2](https://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html)] for TEI-XML documents and META-SHARE and [LIME](https://www.w3.org/2016/05/ontolex/#metadata-lime) for linked data datasets, and the [ISO 639-3 language tag sets](https://iso639-3.sil.org/). 
+
+For those who want to learn more about what the CLARIN infrastructure can offer lexicographers we recommend the ELEXIS course [CLARIN Tools and Resources for Lexicographic Work](http://tacheles.humanistika.org/dFSUorICTUeSFiTSuBfe9A?both).
 
 
 ##### Accessibility
@@ -156,7 +158,7 @@ The second set of guidelines, grouped under the heading of ‘Accessibility’ a
     * A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
 * A2. Metadata are accessible, even when the data are no longer available
 
-As in the previous set of guidelines, the choice of a trustworthy repository (such as for instance a CLARIN data centre) can help take care of A1 and A2 so that the user doesn’t necessarily need to know the details of which protocol is used (e.g., OAI-PMH) although this is useful information to know. However it is also important that a user be clear about accessibility issues in the metadata for their data when they are depositing it including any periods of Data Embargo.
+As in the previous set of guidelines, the choice of a trustworthy repository (such as for instance a **CLARIN** data centre) can help take care of A1 and A2 so that the user doesn’t necessarily need to know the details of which protocol is used (e.g., [OAI-PMH](http://www.openarchives.org/pmh/)) although this is useful information to know. However it is also important that a user be clear about accessibility issues in the metadata for their data when they are depositing it including any potential periods of **data embargo**.
 
 
 ##### Interoperable
@@ -169,13 +171,14 @@ The third grouping of guidelines concerns interoperability. As the GOFAIR site p
 * I2. (Meta)data use vocabularies that follow FAIR principles
 * I3. (Meta)data include qualified references to other (meta)data
 
-The use of the mark-up language XML and/or the Resource Data Framework (RDF) in its XML, Turtle, or JSON serialisations (appropriate for the creation of resources such as lexicons, thesauri, data category registers, and textual corpora and for the creation of resource metadata) suffices for guideline I1. In addition, the use of vocabularies, thesauri and ontologies that are compatible with XML and RDF in the creation of resources will render our resources interoperable to an even far greater degree. Indeed they will make these resources more semantically interoperable, that is at the level of the meaning of data. For instance, if I am using the definition of the term _lemma_ from a common vocabulary or ontology this will render my data more interoperable with other resources using the same definition. A number of such vocabularies/ontologies and standards of this sort are described in the course _<span style="text-decoration:underline;">Standards for Representing Lexical Data: An Overview </span>_ and include LMF, TEI-XML/TEI Lex-0, and OntoLex-Lemon.  OntoLex-Lemon is further described in the course _<span style="text-decoration:underline;">Modeling Dictionaries in OntoLex-Lemon</span>_. Indeed the use of linked data to publish lexicographic resources using a model like OntoLex-Lemon also makes it easier to (re)use existing vocabularies and to include references (via links) to other data and metadata and to fulfil I3.
+The use of the **eXtensible Markup Language** (XML) and/or the **Resource Data Framework** (RDF) in its XML, Turtle, or JSON serialisations (appropriate for the creation of resources such as lexicons, thesauri, data category registers, and textual corpora and for the creation of resource metadata) can serve to implement guideline I1. In addition, the use of vocabularies, thesauri and ontologies that are compatible with XML and RDF in the creation of resources will enhance the interoperability of those resources. Indeed they will help to make them more _semantically interoperable_, that is at the level of the meaning of data. 
+
+For instance, if I am using the definition of the term _lemma_ from a common vocabulary or ontology this will render my data more interoperable with other resources using the same definition. A number of such vocabularies/ontologies and standards of this sort are described in the course _<span style="text-decoration:underline;">Standards for Representing Lexical Data: An Overview </span>_ and include LMF, TEI-XML/TEI Lex-0, and OntoLex-Lemon.  OntoLex-Lemon is  described in further detail in the course _<span style="text-decoration:underline;">Modeling Dictionaries in OntoLex-Lemon</span>_. Indeed the use of linked data to publish lexicographic resources using a model like OntoLex-Lemon also makes it easier to (re)use existing vocabularies and to include references (via links) to other data and metadata and to fulfil I3.
 
 
 ##### Reusable
 
 Finally in this brief tour of the FAIR guidelines we will look at the last grouping of guidelines which are intended to promote the reusability of data. As the GOFAIR website points out “[t]_he ultimate goal of FAIR is to optimise the reuse of data”_. In order to achieve this “_metadata and data should be well-described so that they can be replicated and/or combined in different settings.”_ The guidelines are as follows: 
-
 
 
 * R1. (Meta)data are richly described with a plurality of accurate and relevant attributes
@@ -188,17 +191,17 @@ As for R1.1 an extended discussion of different kinds of issues around legal and
 
 #### Finding out more: Initiatives, projects, and organisations which promote FAIR 
 
-An introduction to initiatives, projects and organisations which promote FAIR and which lexicographers can contribute to and find out more about FAIR from
+A list initiatives, projects and organisations which promote FAIR and which lexicographers can contribute to and find out more about FAIR from
 
 
 
-    * GOFAIR https://www.go-fair.org/today/fair-matrix/
-    * SSHOC
+    * [GOFAIR](https://www.go-fair.org/today/fair-matrix/)
+    * [SSHOC](https://sshopencloud.eu/)
 
 
-### **Other relevant DARIAH teach courses **
+### **Other relevant resourses **
 
-**[https://campus.dariah.eu/resource/an-introduction-to-conceptual-modelling](https://campus.dariah.eu/resource/an-introduction-to-conceptual-modelling)**
+**[An Introduction to Conceptual Modelling](https://campus.dariah.eu/resource/an-introduction-to-conceptual-modelling)**
 
-**[https://youtu.be/dcL9xcIapyI](https://youtu.be/dcL9xcIapyI)**
+**[FAIR Data in Trustworthy Data Repositories](https://youtu.be/dcL9xcIapyI)**
 
